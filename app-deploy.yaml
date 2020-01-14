@@ -54,6 +54,7 @@ metadata:
     image.opencontainers.org/title: appsody-sample-nodejs-express
     stack.appsody.dev/version: 0.2.8
   name: appsody-sample-nodejs-express
+  namespace: kabanero-samples-nodejs
 spec:
   applicationImage: dev.local/appsody-sample-nodejs-express
   createKnativeService: false
