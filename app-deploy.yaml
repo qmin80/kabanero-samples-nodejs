@@ -5,17 +5,17 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T20:35:20.404230
-    commit.image.appsody.dev/author: KyuMin Jeong <qmin80@gmail.com>
-    commit.image.appsody.dev/committer: KyuMin Jeong <qmin80@gmail.com>
-    commit.image.appsody.dev/date: Tue Jan 14 15:22:43 2020 +0900
-    commit.image.appsody.dev/message: first commit
+    commit.image.appsody.dev/author: KyuMin Jeong <qmin@kevin-mbp.kr.ibm.com>
+    commit.image.appsody.dev/committer: KyuMin Jeong <qmin@kevin-mbp.kr.ibm.com>
+    commit.image.appsody.dev/date: Thu Jan 16 08:17:03 2020 +0900
+    commit.image.appsody.dev/message: Update README
     description: This image contains the Kabanero development stack for the Nodejs
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-01-14T15:32:05+09:00"
+    image.opencontainers.org/created: "2020-01-16T09:25:25+09:00"
     image.opencontainers.org/documentation: https://github.com/qmin80/kabanero-samples-nodejs
-    image.opencontainers.org/revision: 154e4644711ab833e8241f104dd1690957ab9fd1-modified
+    image.opencontainers.org/revision: 4a35477bd1bd3bb8a56f577733e584c69967505c
     image.opencontainers.org/source: https://github.com/qmin80/kabanero-samples-nodejs/tree/master
     image.opencontainers.org/url: https://github.com/qmin80/kabanero-samples-nodejs
     k8s.io/description: Node.js 10 available as container is a base platform for building
@@ -38,7 +38,7 @@ metadata:
     release: "54"
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
-    stack.appsody.dev/configured: kabanero/nodejs-express:0.2
+    stack.appsody.dev/configured: docker.io/kabanero/nodejs-express:0.2
     stack.appsody.dev/created: 2019-12-13T14:51:55+0000
     stack.appsody.dev/revision: 7ad65bd9ec95dc9a39fb430a4f56ef63e9026d7f
     stack.appsody.dev/tag: kabanero/nodejs-express:0.2.8
